@@ -1,0 +1,31 @@
+{
+  "name": "stockflare-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "PORT=3001 mocha app/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:skrobek/dev-task.git"
+  },
+  "keywords": [
+    "test",
+    "dev"
+  ],
+  "author": "Pawel Skroban",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skrobek/dev-task/issues"
+  },
+  "homepage": "https://github.com/skrobek/dev-task",
+  "dependencies": {
+    "csvtojson": "^0.4.2",
+    "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "supertest": "^1.1.0"
+  }
+}
