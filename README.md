@@ -26,8 +26,8 @@ To run tests use: `docker-compose run web mocha app/test`
 
 
 # Technical Task
-* Add new controller with new routing path (for currencies codes),
-* Load it in `server.js` file,
+* Add ad new route (for currencies codes),
+* Load it in `app.js` file,
 * Load `.csv` (from `assets` folder) file inside controller,
 * Expose results as a `JSON` response
  * `200` - currency name
